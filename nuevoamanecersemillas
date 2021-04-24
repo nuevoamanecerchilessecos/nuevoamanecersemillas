@@ -1,0 +1,249 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NUEVO AMANECER</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.INICIO {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #0FF;
+}
+.INICIO tr th table tr td #MenuBar2 li a strong {
+	font-weight: bold;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.INICIO tr th table tr td #MenuBar2 li a strong {
+	font-family: Georgia, Times New Roman, Times, serif;
+	color: #00DFAA;
+}
+.INICIO tr th table tr td #MenuBar4 li .MenuBarItemSubmenu {
+	font-family: Lucida Console, Monaco, monospace;
+}
+.INICIO {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: x-large;
+}
+body,td,th {
+	color: #000000;
+	font-size: medium;
+}
+body {
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	color: #F30;
+}
+.INICIO tr th table tr td #MenuBar6 li {
+	color: #FF5;
+	font-size: large;
+}
+.INICIO tr th table tr th {
+	color: #FF5;
+}
+.NOSOTROS {
+	color: #F00;
+}
+</style>
+</head>
+
+<body text="#0000FF" onload="MM_preloadImages('imagenes/botones/inicio (2).png','imagenes/botones/nosotros (2).png','imagenes/botones/servicios (2).png','imagenes/botones/contacto (3).png','imagenes/botones/productos (2).png','imagenes/botones/Captura de pantalla (147).png')" tracingsrc="imagenes/logo 11.png" tracingopacity="73">
+<table width="1006" height="70" border="1">
+  <tr>
+    <th width="996" height="64" scope="col"><p><img src="imagenes/fondo.png" width="1000" height="45" /></p></th>
+  </tr>
+</table>
+<table width="998" border="0">
+  <tr bgcolor="#003366">
+    <td width="806" height="451"><table border="0">
+      <tr>
+        <td width="264" bgcolor="#000000"><img src="imagenes/logo.jfif" width="264" height="346" class="MATERIAS PRIMAS" align="texttop" />
+          <form id="form1" name="form1" method="post" action="">
+          </form></td>
+        <td width="250" height="25" align="left" valign="middle" bgcolor="#CCCCFF"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','imagenes/botones/Captura de pantalla (147).png',1)"><img src="imagenes/logo 11.png" width="531" height="433" id="Image3" /></a></td>
+      </tr>
+    </table></td>
+    <th width="182" bgcolor="#001700"><table width="92%" border="0">
+      <tr>
+        <th nowrap="nowrap" bgcolor="#2A9FAA"><ul id="MenuBar2" class="MenuBarHorizontal">
+          <li>            <a href="imagenes/logo.jfif" title="inicio" target="new" class="MenuBarActive"><strong>INICIO</strong></a>          </li>
+</ul>
+          <ul id="MenuBar1" class="MenuBarVertical">
+            <ul>
+                <li><a href="#">Elemento 1.2</a></li>
+                <li><a href="#">Elemento 1.3</a></li>
+              </ul>
+        </ul></th>
+        </tr>
+      <tr>
+        <td bgcolor="#2A9FAA"><ul id="MenuBar3" class="MenuBarHorizontal">
+          <li><a href="imagenes/botones/Captura de pantalla (154).png" class="NOSOTROS">NOSOTROS
+          </a>            </li>
+</ul></td>
+        </tr>
+      <tr>
+        <td bgcolor="#2A9FAA"><ul id="MenuBar4" class="MenuBarHorizontal">
+          <li><a class="MenuBarItemSubmenu" href="#"><strong>PRODUCTOS</strong></a>
+            <ul>
+              <li><a href="#" class="MenuBarItemSubmenu">CHILES SECOS</a>
+                <ul>
+                  <li><a href="imagenes/chiles secos/ARBOL.png">ARBOL</a></li>
+                  <li><a href="imagenes/chiles secos/CHILE ANCHO.png">CHILE ANCHO</a></li>
+                  <li><a href="imagenes/chiles secos/PASILLA.png">CHILE PASILLA</a></li>
+                  <li><a href="imagenes/chiles secos/CATARINA.png">CATARINA</a></li>
+                  <li><a href="imagenes/chiles secos/GLOBO.png">GLOBO</a></li>
+                  <li><a href="imagenes/chiles secos/GUAJILLO.png">GUAJILLO</a></li>
+                  <li><a href="imagenes/chiles secos/MECO.png">MECO</a></li>
+                  <li><a href="imagenes/chiles secos/MORA.png">MORA</a></li>
+<li><a href="imagenes/chiles secos/PIQUIN (2).png">PIQUIN</a></li>
+                  <li><a href="imagenes/chiles secos/PULLA.png">PULLA</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="MenuBarItemSubmenu">DULCES Y BOTANAS</a>
+                <ul>
+                  <li><a href="imagenes/dulces y botnas/ALMENDRA.png">ALMENDRA</a></li>
+                  <li><a href="imagenes/dulces y botnas/ARANDANO.png" title="ERES">ARANDANO CON CHOCOLATE</a></li>
+                  <li><a href="imagenes/dulces y botnas/BOTANA MIX.png">BOTANA MIX</a></li>
+                  <li><a href="imagenes/dulces y botnas/CHETOS DE QUESO.png">CHETOS DE QUESO</a></li>
+                  <li><a href="imagenes/dulces y botnas/ENCHILADO).png">CACAHUATES ENCHILADOS</a></li>
+                  <li><a href="imagenes/dulces y botnas/ESPAÑOL.png">CACAHUATE ESPA&Ntilde;OL</a></li>
+                  <li><a href="imagenes/dulces y botnas/FRITURAS.png">FRTITURAS</a></li>
+                  <li><a href="imagenes/dulces y botnas/GARRITAS.png">GARRITAS</a></li>
+                  <li><a href="imagenes/dulces y botnas/HOT NUTS.png">HOT NUTS</a></li>
+                  <li><a href="imagenes/dulces y botnas/HUEVITOS.png">HUEVITOS</a></li>
+                  <li><a href="imagenes/dulces y botnas/JAPONES.png">CACAHUATE JAPONES</a></li>
+                  <li><a href="imagenes/dulces y botnas/LUNETAS.png">LUNETAS</a></li>
+                  <li><a href="imagenes/dulces y botnas/SOL.png">CACAHUATE SOL</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="MenuBarItemSubmenu">FRUTOS SECOS</a>
+                <ul>
+                  <li><a href="imagenes/frutos secos/ALMENDRAS.png">ALMENDRAS</a></li>
+                  <li><a href="imagenes/frutos secos/ARANDANO.png">ARANDANO</a></li>
+                  <li><a href="imagenes/frutos secos/AVELLANA.png">AVELLANA</a></li>
+                  <li><a href="imagenes/frutos secos/CIRUELA PASA.png">CIRUELA PASA</a></li>
+                  <li><a href="imagenes/frutos secos/KIWI SECO.png">KIWI SECO</a></li>
+                  <li><a href="imagenes/frutos secos/MIX DE FRUTA.png">MIX DE FRUTAS</a></li>
+                  <li><a href="imagenes/frutos secos/NUEZ DE LA INDIA.png">NUEZ DE LA INDIA</a></li>
+                  <li><a href="imagenes/frutos secos/NUEZ.png">NUEZ</a></li>
+                  <li><a href="imagenes/frutos secos/PASITA.png">PASITA</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="MenuBarItemSubmenu">CEREALES</a>
+                <ul>
+                  <li><a href="imagenes/cereales/imagenes a usar CEREALES/AVENA.png">AVENA</a></li>
+                  <li><a href="imagenes/cereales/imagenes a usar CEREALES/CEBADA.png">CEBADA</a></li>
+                  <li><a href="imagenes/cereales/imagenes a usar CEREALES/CEREAL BENOTI.png">CEREAL BENOTI</a></li>
+                  <li><a href="imagenes/cereales/imagenes a usar CEREALES/FROT LOOTS (2).png">FROT LOOTS</a></li>
+                  <li><a href="imagenes/cereales/imagenes a usar CEREALES/GRANOLA (2).png">GRANOLA</a></li>
+                  <li><a href="imagenes/cereales/imagenes a usar CEREALES/HOJUELAS DE MAIZ.png">HOJUELAS DE MAIZ</a></li>
+                  <li><a href="imagenes/cereales/imagenes a usar CEREALES/TRIGO (2).png">TRIGO</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+</ul></td>
+        </tr>
+      <tr>
+        <td bgcolor="#2A9FAA"><ul id="MenuBar5" class="MenuBarHorizontal">
+          <li><a href="imagenes/SERVICIOS.png" target="_blank">SERVICIOS</a>            </li>
+</ul></td>
+        </tr>
+      <tr>
+        <td bgcolor="#2A9FAA"><ul id="MenuBar6" class="MenuBarHorizontal">
+          <center>
+            <li><a href="https://www.facebook.com/Chiles-secos-y-semillas-Nuevo-Amanecer-106991134372875/"><img src="imagenes/botones/contacto.png" alt="EL NUEVO AMANECER" width="127" height="35" id="Image4" /></a></li>
+          </center>
+</ul></td>
+        </tr>
+  </table>
+    <div align="right"></div></th>
+  </tr>
+</table>
+<table width="990" border="0">
+  <tr>
+    <td width="273" height="471" rowspan="4" bgcolor="#000000"><table width="100" border="0">
+      <tr>
+        <td bgcolor="#CCCCFF"><label for="CORREO ELECTRONICO">CORREO ELECTRONICO</label></td>
+        <th bgcolor="#FFCCFF"><input name="CORREO ELECTRONICO" type="text" id="CORREO ELECTRONICO" value="fulanito@gmail.com" /></th>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCCFF"><strong>
+          <label for="CONTRASEÑA3">CONTRASEÑA</label>
+        </strong></td>
+        <td bgcolor="#FFCCFF"><input name="CONTRASEÑA" type="text" id="CONTRASEÑA3" maxlength="10" /></td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCCFF"><strong>
+          <label> ES LA PRIMERA VEZ QUE ACCEDO</label>
+        </strong></td>
+        <td bgcolor="#FFCCFF"><input type="checkbox" name="PRIMERA_VEZ" id="PRIMERA_VEZ" /></td>
+      </tr>
+      <tr>
+        <td bgcolor="#CCCCFF"><strong>DESEO INFORMACION</strong></td>
+        <td bgcolor="#FFCCFF"><label>
+          <input name="radio" type="radio" id="INFO_SI" value="INFO_SI" checked="checked" />
+          SI
+          <input name="radio" type="radio" id="INFO_NO" value="INFO_NO" />
+          NO</label></td>
+      </tr>
+      <tr>
+        <td height="38" bgcolor="#CCCCFF"><strong>
+          <label>
+            <input type="submit" name="button" id="button" value="Enviar" />
+          </label>
+        </strong></td>
+        <td bgcolor="#FFCCFF">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td width="301" height="471" rowspan="4" bgcolor="#000000"><form id="form3" name="form3" method="post" action="">
+      <div align="justify">
+        <input type="hidden" name="hiddenField" id="hiddenField" />
+        UBICACION
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.12221133756645!2d-99.27053486698735!3d19.45749044470233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d203894b1a5911%3A0xee08304e9334bea4!2sCol%20de%20la%20Ca%C3%B1ada%20de%20San%20Lorenzo%20Totolinga%2C%20Naucalpan%20de%20Ju%C3%A1rez%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1619279717070!5m2!1ses-419!2smx" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </form></td>
+    <td width="402"><img src="imagenes/ACEITE.jpg" width="403" height="163" align="right" /></td>
+  </tr>
+  <tr>
+    <td><img src="imagenes/chiles secos/PIQUIN (2).png" width="403" height="165" /></td>
+  </tr>
+  <tr>
+    <td><img src="imagenes/cereales/imagenes a usar CEREALES/GRANOLA (2).png" width="405" height="156" /></td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+  </tr>
+</table>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar4 = new Spry.Widget.MenuBar("MenuBar4", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar5 = new Spry.Widget.MenuBar("MenuBar5", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar6 = new Spry.Widget.MenuBar("MenuBar6", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar3 = new Spry.Widget.MenuBar("MenuBar3", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
